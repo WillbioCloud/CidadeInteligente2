@@ -1,0 +1,66 @@
+
+[functions.get-exercises]
+enabled = true
+verify_jwt = true
+import_map = "./functions/get-exercises/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/get-exercises/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/get-exercises/*.html" ]
+
+[functions.check-dengue-alerts]
+enabled = true
+verify_jwt = true
+import_map = "./functions/check-dengue-alerts/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/check-dengue-alerts/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/check-dengue-alerts/*.html" ]
+
+[functions.get-nutrition-info]
+enabled = true
+verify_jwt = true
+import_map = "./functions/get-nutrition-info/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/get-nutrition-info/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/get-nutrition-info/*.html" ]
+
+[functions.update-nutrition-tip]
+enabled = true
+verify_jwt = true
+import_map = "./functions/update-nutrition-tip/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/update-nutrition-tip/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/update-nutrition-tip/*.html" ]
+
+[functions.cleanup-old-tips]
+enabled = true
+verify_jwt = true
+import_map = "./functions/cleanup-old-tips/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/cleanup-old-tips/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/cleanup-old-tips/*.html" ]
+
+[functions.generate-health-tip]
+enabled = true
+verify_jwt = true
+import_map = "./functions/generate-health-tip/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/generate-health-tip/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/generate-health-tip/*.html" ]

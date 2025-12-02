@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "CidadeInteligente",
+    "slug": "CidadeInteligente",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-video",
+      "expo-barcode-scanner",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O aplicativo precisa de acesso à sua galeria para que você possa escolher uma foto de perfil."
+        }
+      ],
+      "expo-audio",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#000000",
+          "iosDisplayInForeground": true,
+          "sounds": [
+            {
+              "name": "notification.wav",
+              "filename": "notification.wav"
+            }
+          ]
+        }
+      ]
+    ]
+    
+  }
+}
